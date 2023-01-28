@@ -1,7 +1,7 @@
 'use strict';
 
 var async = require('async');
-var bitcore = require('lbchcore--lib');
+var bitcore = require('lbchcore-lib');
 var BigNumber = require('bignumber.js');
 var LRU = require('lru-cache');
 var Common = require('../lib/common');

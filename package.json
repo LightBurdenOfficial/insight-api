@@ -16,7 +16,7 @@
     "lbch api",
     "blockchain api",
     "json",
-    "lbchcore-"
+    "lbchcore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -25,7 +25,7 @@
     "test": "NODE_ENV=test mocha -R spec --recursive"
   },
   "main": "lib",
-  "lbchcore-Node": "lib",
+  "lbchcoreNode": "lib",
   "dependencies": {
     "async": "*",
     "bignumber.js": "^4.0.2",
@@ -39,7 +39,7 @@
     "moment": "^2.19.3",
     "mongoose": "^4.11.8",
     "morgan": "^1.7.0",
-    "lbchcore--lib": "https://github.com/LightBurdenOfficial/lbchcore--lib.git#master",
+    "lbchcore-lib": "https://github.com/LightBurdenOfficial/lbchcore-lib.git#master",
     "request": "^2.83.0",
     "web3": "^0.18.4"
   },

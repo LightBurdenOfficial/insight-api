@@ -1,6 +1,6 @@
 var Common = require('../lib/common');
 var async = require('async');
-var lbchcore- = require('lbchcore--lib');
+var lbchcore- = require('lbchcore-lib');
 var TYPE = 'BLOCKS_MINED';
 
 function AddressBlocksMinedService(options) {

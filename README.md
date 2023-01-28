@@ -21,7 +21,7 @@
 * [Stake](#stake-statistic)
 * [Total Supply](#total-supply-statistic)
 
-A LBCH blockchain REST and web socket API service for [LBChcore Node](https://github.com/LightBurdenOfficial/lbchcore--node).
+A LBCH blockchain REST and web socket API service for [LBChcore Node](https://github.com/LightBurdenOfficial/lbchcore-node).
 
 This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/LightBurdenOfficial/lbch-explorer.
 
@@ -43,18 +43,18 @@ This is a backend-only service. If you're looking for the web frontend applicati
     # with bitcore
     ./configure --enable-bitcore
     ```  
-4. Install lbchcore--node  
+4. Install lbchcore-node  
 
     ```bash
-    npm i https://github.com/LightBurdenOfficial/lbchcore--node.git#main
+    npm i https://github.com/LightBurdenOfficial/lbchcore-node.git#main
 
-    $(npm bin)/lbchcore--node create mynode
+    $(npm bin)/lbchcore-node create mynode
 
     cd mynode
 
-    $(npm bin)/lbchcore--node install https://github.com/LightBurdenOfficial/insight-api.git#main
+    $(npm bin)/lbchcore-node install https://github.com/LightBurdenOfficial/insight-api.git#main
     ```  
-5. Edit lbchcore--node.json  
+5. Edit lbchcore-node.json  
 
     ```json
     {
@@ -123,7 +123,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 7. Run Node  
 
     ```
-    $(npm bin)/lbchcore--node start
+    $(npm bin)/lbchcore-node start
     ```  
 
 8. The API endpoints will be available by default at: `http://localhost:3001/lbch-insight-api/`  
@@ -141,7 +141,7 @@ There add-on service available to extend the functionality of LBChcore:
 
 ## Query Rate Limit
 
-To protect the server, lbch-insight-api has a built it query rate limiter. It can be configurable in `lbchcore--node.json` with:
+To protect the server, lbch-insight-api has a built it query rate limiter. It can be configurable in `lbchcore-node.json` with:
 ``` json
   "servicesConfig": {
     "lbch-insight-api": {
@@ -161,7 +161,7 @@ Or disabled entirely with:
   }
   ```
   
-**Note:** `routePrefix` can be configurable in `lbchcore--node.json` with:
+**Note:** `routePrefix` can be configurable in `lbchcore-node.json` with:
 
 ``` json
   "servicesConfig": {
@@ -174,7 +174,7 @@ Or disabled entirely with:
 ## Enable / Disable logs
 
  To reduce the load on the server, lbch-insight-api has opportunity to enable / disable logs.
- Both `enableApiLogs` and `enableContractsApiLogs` can be configured in `lbchcore--node.json` with:
+ Both `enableApiLogs` and `enableContractsApiLogs` can be configured in `lbchcore-node.json` with:
 ``` json
   "servicesConfig": {
     "lbch-insight-api": {
