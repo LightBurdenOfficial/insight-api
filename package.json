@@ -39,7 +39,7 @@
     "moment": "^2.19.3",
     "mongoose": "^4.11.8",
     "morgan": "^1.7.0",
-    "lbchcore-lib": "https://github.com/LightBurdenOfficial/lbchcore-lib.git#master",
+    "lbchcore-lib": "https://github.com/LightBurdenOfficial/lbchcore-lib.git#main",
     "request": "^2.83.0",
     "web3": "^0.18.4"
   },
